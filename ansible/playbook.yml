@@ -1,0 +1,9 @@
+- name: Setup Web Server
+  hosts: webservers
+  roles:
+    - webserver
+
+- name: Setup Database Server
+  hosts: dbservers
+  roles:
+    - database
