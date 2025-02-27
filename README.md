@@ -1,26 +1,27 @@
 # Ansible Learn Project
 
-Ansible project for learning purposes, focusing on automation tasks such as software installation, configuration, and service management.
+Ansible project for learning purposes, focusing on automation tasks such as software installation, configuration, 
+and service management all executed within a VirtualBox virtual machine environment
 
 ## 1. Project Setup
 - Creating an `ansible` folder to store all required files.
 
 ## 2. VirtualBox Environment Setup
-  1. Create a VirtualBox VM:
-  - Download and install VirtualBox.
-  - Create a new VM and select Ubuntu as the operating system.
+  1. **Create a VirtualBox VM**:
+    - Download and install VirtualBox.
+    - Create a new VM and select Ubuntu as the operating system.
 
-  2. Configure SSH Access:
-  - Install OpenSSH Server:
-  - Install OpenSSH Server:
-    ```bash
-    sudo apt update
-    sudo apt install openssh-server 
-    ```
-  3. Configure Network Settings
+  2. **Configure SSH Access**:
+    - Install OpenSSH Server:
+    - Install OpenSSH Server:
+      ```bash
+      sudo apt update
+      sudo apt install openssh-server 
+      ```
+  3. **Configure Network Settings***;
 
-  4. Define the Inventory in Ansible:
-  Create an inventory file (e.g., inventory.ini) that includes your VM's details like port,username,password
+  4. ***Define the Inventory in Ansible**:
+    Create an inventory file (e.g., inventory.ini) that includes your VM's details like port,username,password
 
 ## 3. Automation Tasks
 - Modify file permissions as needed (e.g., setting correct permissions for configuration files).
