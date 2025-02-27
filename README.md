@@ -13,10 +13,11 @@ and service management all executed within a VirtualBox virtual machine environm
 
   2. **Configure SSH Access**:
     - Install OpenSSH Server:
-    - Install OpenSSH Server:
       ```bash
       sudo apt update
-      sudo apt install openssh-server 
+      sudo apt install openssh-server
+      sudo systemctl enable ssh
+      sudo systemctl start ssh
       ```
   3. **Configure Network Settings***;
 
