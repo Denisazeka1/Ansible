@@ -67,10 +67,8 @@ ansible -i ansible/inventory.ini ubuntu_vm -m ping
 To execute the playbook, use the following command:
 
 ```bash
-ansible-playbook -i ansible/inventory.ini ansible/playbook.yml --ask-become-pass
+ansible-playbook -i ansible/inventory.ini ansible/playbook.yml
 ```
-(provide the password you use to login in your virtualbox)
-
 
 ###############################################################################################################
 This project serves as a hands-on guide to learning Ansible by automating infrastructure setup and configuration.
