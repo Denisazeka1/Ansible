@@ -1,4 +1,4 @@
-# Ansible Learn Project
+# Learn Ansible Project
 
 Ansible project for learning purposes, focusing on automation tasks such as software installation, configuration, 
 and service management all executed within a VirtualBox virtual machine environment
